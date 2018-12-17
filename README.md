@@ -1,0 +1,1 @@
+Working Version of react-redux spotify web app.  Shout out to Pau1fitz.  I used Pau1fitz's Spotify react-redux project  (https://github.com/Pau1fitz/react-spotify) and refactored it as a component for the frontend in my project.  Looking to add auto location with the google maps api as a component in audioHoesV2.  The backend for this project will pushed later this week.

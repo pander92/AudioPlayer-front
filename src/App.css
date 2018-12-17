@@ -1,0 +1,134 @@
+.App {
+  margin: 0 auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
+
+/* .left-side-section {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  width: 180px;
+  overflow-y: hidden;
+} */
+
+.left-side-section {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  width: 20%;
+  overflow-y: hidden;
+}
+
+/* .app-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  background: url('../images/background1.jpg') center; 
+  background: url('../public/images/background1.jpg') center;
+
+  background-size: cover;
+
+  color: #fff;
+  width: 100%;
+  height: auto;
+  margin: 1vw auto;
+  padding: 3vw;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+} */
+
+.app-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  background-size: cover;
+  background: linear-gradient(#6d357a, #3f87a6);
+
+  color: #fff;
+  font-weight: heavy;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1vw;
+  z-index: 1;
+  opacity: 0.85;
+}
+
+.main-section {
+  position: relative;
+
+  width: 70%;
+  height: auto;
+
+  left: 4vw;
+  padding: 1vw;
+  margin: 0 auto;
+}
+
+.main-section-container {
+  position: relative;
+  top: 50px;
+  padding-bottom: 100px;
+}

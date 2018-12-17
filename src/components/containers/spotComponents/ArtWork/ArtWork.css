@@ -1,0 +1,10 @@
+.album-artwork-container {
+  width: 5vw;
+  height: auto;
+  position: absolute;
+  bottom: 4vw;
+}
+
+.album-artwork {
+  width: 100%;
+}

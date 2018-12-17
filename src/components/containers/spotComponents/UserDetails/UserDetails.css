@@ -1,0 +1,21 @@
+.user-details-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 5px;
+  z-index: 1000;
+
+  background: rgba(24, 24, 24, 0);
+}
+
+.user-image {
+  border-radius: 50%;
+  height: 30px;
+}
+
+.user-name {
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  top: 5px;
+  margin-left: 10px;
+}

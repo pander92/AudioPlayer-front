@@ -1,0 +1,192 @@
+//  <nav id="nav">
+//   <ul>
+//     <li className="current">
+//       <a href="index.html">Home</a>
+//     </li>
+//     <li>
+//       <a href="#">Dropdown</a>
+//       <ul>
+//         <li>
+//           <a href="#">Lorem ipsum</a>
+//         </li>
+//         <li>
+//           <a href="#">Magna veroeros</a>
+//         </li>
+//         <li>
+//           <a href="#">Etiam nisl</a>
+//         </li>
+//         <li>
+//           <a href="#">Sed consequat</a>
+//           <ul>
+//             <li>
+//               <a href="#">Lorem dolor</a>
+//             </li>
+//             <li>
+//               <a href="#">Amet consequat</a>
+//             </li>
+//             <li>
+//               <a href="#">Magna phasellus</a>
+//             </li>
+//             <li>
+//               <a href="#">Etiam nisl</a>
+//             </li>
+//             <li>
+//               <a href="#">Sed feugiat</a>
+//             </li>
+//           </ul>
+//         </li>
+//         <li>
+//           <a href="#">Nisl tempus</a>
+//         </li>
+//       </ul>
+//     </li>
+//     <li>
+//       <a href="left-sidebar.html">Left Sidebar</a>
+//     </li>
+//     <li>
+//       <a href="right-sidebar.html">Right Sidebar</a>
+//     </li>
+//     <li>
+//       <a href="no-sidebar.html">No Sidebar</a>
+//     </li>
+//   </ul>
+// </nav>
+
+// _________________________________________________________
+<div>
+  <form onSubmit={this.onSubmit}>
+    <TextFieldGroup
+      id="username"
+      placeholder="Username"
+      label="Username"
+      name="username"
+      type="text"
+      value={this.state.username}
+      onChange={this.onChange}
+      error={errors.username}
+    />
+    <TextFieldGroup
+      id="email"
+      placeholder="Email"
+      label="Email"
+      name="email"
+      type="email"
+      value={this.state.email}
+      onChange={this.onChange}
+      error={errors.email}
+    />
+    <TextFieldGroup
+      id="password"
+      placeholder="********"
+      label="Password"
+      name="password"
+      type="password"
+      value={this.state.password}
+      onChange={this.onChange}
+      error={errors.password}
+    />
+    <TextFieldGroup
+      id="passwordRepeat"
+      placeholder="********"
+      label="Repeat Password"
+      name="password2"
+      type="password"
+      value={this.state.password2}
+      onChange={this.onChange}
+      error={errors.password2}
+    />
+    <button type="submit" className="btn btn--form">
+      Register
+    </button>
+  </form>
+</div>;
+
+
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+
+
+ "scripts": {
+    "start": "node scripts/start.js",
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom"
+  }
+
+___________________________________________-
+
+  body,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
+
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+    background: rgb(24, 24, 24);
+    color: #fff;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.app-container {
+  display: flex;
+  position: relative;
+}
+
+.left-side-section {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  width: 180px;
+  overflow-y: auto;
+}
+
+.main-section {
+  width: 900px;
+  position: relative;
+  left: 200px;
+  padding: 0 10px;
+}
+
+.main-section-container {
+  position: relative;
+  top: 50px;
+  padding-bottom: 100px;
+}
